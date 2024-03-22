@@ -22,6 +22,9 @@ const App = () => {
               <a href="#quienes-somos">Quiénes Somos</a>
             </li>
             <li>
+              <a href="#nuestro-logo">Nuestro logo</a>
+            </li>
+            <li>
               <a href="#nuestra-experiencia">Nuestra Experiencia</a>
             </li>
             <li>
@@ -45,23 +48,27 @@ const App = () => {
         <section id="quienes-somos" className="section">
           <p>En JAD Corp, somos más que una start-up tecnológica colombiana; somos una fuerza impulsora detrás de la transformación digital en todo el mundo. Nuestra pasión por la innovación y nuestra dedicación a crear soluciones tecnológicas de vanguardia nos posicionan como socios confiables para empresas en busca de un cambio disruptivo y efectivo. Nos comprometemos a ofrecer a nuestros clientes globales las herramientas y la experiencia necesarias para capitalizar al máximo el potencial de sus datos, permitiéndoles alcanzar nuevos niveles de eficiencia, competitividad y éxito en sus respectivas industrias. Con un enfoque en la excelencia, la transparencia y el servicio al cliente, estamos listos para liderar el camino hacia un futuro digital sin fronteras, donde la innovación y la tecnología abren puertas hacia infinitas posibilidades. Confíe en JAD Corp para impulsar su transformación digital y llevar su empresa al siguiente nivel, donde juntos, podemos lograr grandes cosas.</p>
         </section>
+        <section id="nuestro-logo" className="section">
+          <p>El logo de "Jad Corp", una empresa de tecnología especializada en desarrollo de software y ciencia de datos, presenta la imagen de un guerrero con un escudo, transmitiendo fuerza, protección y determinación. La ilustración sugiere la capacidad de la empresa para superar desafíos tecnológicos con valentía y seguridad, protegiendo los datos y la información de los clientes. El nombre de la empresa se muestra de forma sólida y legible, comunicando profesionalismo y confianza. En conjunto, el logo transmite la visión de "Jad Corp" como un líder en su campo, comprometido con la excelencia y la seguridad en sus servicios tecnológicos.
+</p>
+        </section>
         <section id="nuestra-experiencia" className="section">
           <h2>Nuestra Experiencia</h2>
-          <p>Descripción de nuestra experiencia...</p>
+          <p>JAD Corp ofrece soluciones tecnológicas innovadoras y personalizadas para empresas de diversos sectores. Con más de 1 año de experiencia, nuestro equipo de expertos te acompaña en el diseño y desarrollo de software que impulse tu negocio al éxito.</p>
         </section>
         <section id="nuestros-proyectos" className="section">
           <h2>Nuestros Proyectos</h2>
           <ul className="proyectos-lista">
             <li>
-              <img src="proyecto1.png" alt="Proyecto 1" />
+              <img src="proyecto1.jpeg" alt="Proyecto 1" />
               <p>Descripción del Proyecto 1</p>
             </li>
             <li>
-              <img src="proyecto2.png" alt="Proyecto 2" />
+              <img src="proyecto2.jpg" alt="Proyecto 2" />
               <p>Descripción del Proyecto 2</p>
             </li>
             <li>
-              <img src="proyecto3.png" alt="Proyecto 3" />
+              <img src="proyecto3.jpg" alt="Proyecto 3" />
               <p>Descripción del Proyecto 3</p>
             </li>
           </ul>
