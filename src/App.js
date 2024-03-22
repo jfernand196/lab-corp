@@ -28,6 +28,9 @@ const App = () => {
               <a href="#nuestros-proyectos">Nuestros Proyectos</a>
             </li>
             <li>
+              <a href="#Servicios:">Servicios</a>
+            </li>
+            <li>
               <a href="#contactenos">Contáctenos</a>
             </li>
           </ul>
@@ -60,6 +63,28 @@ const App = () => {
             <li>
               <img src="proyecto3.png" alt="Proyecto 3" />
               <p>Descripción del Proyecto 3</p>
+            </li>
+          </ul>
+        </section>
+        <section id="Servicios" className="section">
+          <h2>Servicios</h2>
+          <p>¿Necesitas un sitio web que represente tu marca y te ayude a atraer nuevos clientes? ¿Quieres una aplicación web que automatice tus procesos y te haga más eficiente?  En JADCORP, podemos ayudarte a crear soluciones web personalizadas que se adapten a tus necesidades específicas.</p>
+          <h2>Servicios que ofrecemos:</h2>
+          <ul>
+            <li>
+            Diseño web: Creamos sitios web modernos, atractivos y fáciles de usar que se adaptan a cualquier dispositivo.
+            </li>
+            <li>
+            Desarrollo web: Desarrollamos aplicaciones web robustas y escalables que te ayudan a optimizar tu negocio.
+            </li>
+            <li>
+            Mantenimiento web: Nos encargamos de mantener tu sitio web actualizado y seguro, para que puedas despreocuparte.
+            </li>
+            <li>
+            Ciencia, análisis e ingeniería de datos
+            </li>
+            <li>
+            Automatización de procesos
             </li>
           </ul>
         </section>
