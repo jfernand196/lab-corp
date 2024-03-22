@@ -72,13 +72,13 @@ const App = () => {
           <h2>Servicios que ofrecemos:</h2>
           <ul>
             <li>
-            Diseño web: Creamos sitios web modernos, atractivos y fáciles de usar que se adaptan a cualquier dispositivo.
+            <b>Diseño web:</b> Creamos sitios web modernos, atractivos y fáciles de usar que se adaptan a cualquier dispositivo.
             </li>
             <li>
-            Desarrollo web: Desarrollamos aplicaciones web robustas y escalables que te ayudan a optimizar tu negocio.
+            <b>Desarrollo web:</b> Desarrollamos aplicaciones web robustas y escalables que te ayudan a optimizar tu negocio.
             </li>
             <li>
-            Mantenimiento web: Nos encargamos de mantener tu sitio web actualizado y seguro, para que puedas despreocuparte.
+            <b>Mantenimiento web:</b> Nos encargamos de mantener tu sitio web actualizado y seguro, para que puedas despreocuparte.
             </li>
             <li>
             Ciencia, análisis e ingeniería de datos
