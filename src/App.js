@@ -28,7 +28,7 @@ const App = () => {
               <a href="#nuestros-proyectos">Nuestros Proyectos</a>
             </li>
             <li>
-              <a href="#Servicios:">Servicios</a>
+              <a href="#servicios:">Servicios</a>
             </li>
             <li>
               <a href="#contactenos">Contáctenos</a>
@@ -66,7 +66,7 @@ const App = () => {
             </li>
           </ul>
         </section>
-        <section id="Servicios" className="section">
+        <section id="servicios" className="section">
           <h2>Servicios</h2>
           <p>¿Necesitas un sitio web que represente tu marca y te ayude a atraer nuevos clientes? ¿Quieres una aplicación web que automatice tus procesos y te haga más eficiente?  En JADCORP, podemos ayudarte a crear soluciones web personalizadas que se adapten a tus necesidades específicas.</p>
           <h2>Servicios que ofrecemos:</h2>
