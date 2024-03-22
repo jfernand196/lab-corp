@@ -6,16 +6,19 @@ body {
 }
 
 header {
-  background-color: #282c34; /* Color de fondo para el encabezado */
+  background-color: #a6a6a6; /* Color de fondo para el encabezado */
   color: #ffffff; /* Color de texto */
-  padding: 20px;
+  padding: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+
+
 .logo img {
-  width: 100px;
+  width: 10%;
+
 }
 
 nav ul {
@@ -96,7 +99,7 @@ nav ul li a {
 }
 
 main {
-  padding: 50px;
+  padding: 80px;
 }
 
 .section {

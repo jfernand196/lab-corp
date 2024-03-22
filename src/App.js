@@ -14,7 +14,7 @@ const App = () => {
     <div className="App">
       <header>
         <div className="logo">
-          <img src="logo.png" alt="Logo" />
+          <img src="logo.jpg" alt="Logo" />
         </div>
         <nav className={menuOpen ? "menu-open" : ""}>
           <ul>
@@ -69,7 +69,7 @@ const App = () => {
         <section id="servicios" className="section">
           <h2>Servicios</h2>
           <p>¿Necesitas un sitio web que represente tu marca y te ayude a atraer nuevos clientes? ¿Quieres una aplicación web que automatice tus procesos y te haga más eficiente?  En JADCORP, podemos ayudarte a crear soluciones web personalizadas que se adapten a tus necesidades específicas.</p>
-          <h2>Servicios que ofrecemos:</h2>
+          <h4>Servicios que ofrecemos:</h4>
           <ul>
             <li>
             <b>Diseño web:</b> Creamos sitios web modernos, atractivos y fáciles de usar que se adaptan a cualquier dispositivo.
