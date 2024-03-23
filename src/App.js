@@ -49,7 +49,7 @@ const App = () => {
           <p>En JAD Corp, somos más que una start-up tecnológica colombiana; somos una fuerza impulsora detrás de la transformación digital en todo el mundo. Nuestra pasión por la innovación y nuestra dedicación a crear soluciones tecnológicas de vanguardia nos posicionan como socios confiables para empresas en busca de un cambio disruptivo y efectivo. Nos comprometemos a ofrecer a nuestros clientes globales las herramientas y la experiencia necesarias para capitalizar al máximo el potencial de sus datos, permitiéndoles alcanzar nuevos niveles de eficiencia, competitividad y éxito en sus respectivas industrias. Con un enfoque en la excelencia, la transparencia y el servicio al cliente, estamos listos para liderar el camino hacia un futuro digital sin fronteras, donde la innovación y la tecnología abren puertas hacia infinitas posibilidades. Confíe en JAD Corp para impulsar su transformación digital y llevar su empresa al siguiente nivel, donde juntos, podemos lograr grandes cosas.</p>
         </section>
         <section id="nuestro-logo" className="section">
-          <p>El logo de "Jad Corp", una empresa de tecnología especializada en desarrollo de software y ciencia de datos, presenta la imagen de un guerrero con un escudo, transmitiendo fuerza, protección y determinación. La ilustración sugiere la capacidad de la empresa para superar desafíos tecnológicos con valentía y seguridad, protegiendo los datos y la información de los clientes. El nombre de la empresa se muestra de forma sólida y legible, comunicando profesionalismo y confianza. En conjunto, el logo transmite la visión de "Jad Corp" como un líder en su campo, comprometido con la excelencia y la seguridad en sus servicios tecnológicos.
+          <p>El logo de "JAD Corp", una empresa de tecnología especializada en desarrollo de software y ciencia de datos, presenta la imagen de un guerrero con un escudo, transmitiendo fuerza, protección y determinación. La ilustración sugiere la capacidad de la empresa para superar desafíos tecnológicos con valentía y seguridad, protegiendo los datos y la información de los clientes. El nombre de la empresa se muestra de forma sólida y legible, comunicando profesionalismo y confianza. En conjunto, el logo transmite la visión de "Jad Corp" como un líder en su campo, comprometido con la excelencia y la seguridad en sus servicios tecnológicos.
 </p>
         </section>
         <section id="nuestra-experiencia" className="section">
@@ -106,7 +106,7 @@ const App = () => {
           <a href="#">Instagram</a>
           <a href="#">Twitter</a>
         </div>
-        <p>Derechos de autor © 2024. Todos los derechos reservados.</p>
+        <p>2024 JAD Corp, Todos Los Derechos Reservados.</p>
       </footer>
     </div>
   );
