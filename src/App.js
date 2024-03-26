@@ -48,7 +48,7 @@ const App = () => {
       <section id="home" className="container">
             <h1>CREAMOS LAS <strong>APLICACIONES</strong> DEL FUTURO</h1>
             <div className="divider"></div>
-            <p>Dev Studio es la mejor opción si necesitas un prototipo o quieres acelerar tu ciclo de desarrollo.</p>
+            <p>JAD Corp es la mejor opción si necesitas un prototipo o quieres acelerar tu ciclo de desarrollo.</p>
 {/*            <div className="social">
                 <a href=""><i className="fab fa-facebook-f"></i></a>
                 <a href=""><i className="fab fa-twitter"></i></a>
@@ -56,6 +56,24 @@ const App = () => {
   </div>*/}
         </section>
       </div>
+      <section id="servicios" className="container">
+        <h2>SERVICIOS</h2>
+        <div className="box">
+            <img src="./web-design.png" alt="Web Dising"/>
+            <h3>Web Desing</h3>
+            <p>Somos expertos en Web Design. Nuestro equipo es por mucho el mejor. Nadie nos hace competencia.</p>
+        </div>
+        <div className="box">
+            <img src="web-development.png" alt="Web Developend"/>
+            <h3>Web Development</h3>
+            <p>Somos expertos en Web Development. Usamos HTML5, CSS3, Git, Bootstrap, Ruby on Rails, y JavaScript.</p>
+        </div>
+        <div className="box">
+            <img src="ux-ui.png" alt="UX and UI"/>
+            <h3>Mobile Development</h3>
+            <p>Somos expertos en Mobile Development. Creemos que el futuro está en responsive design y no nativo.</p>
+        </div>
+    </section>
       <main>
         <section id="quienes-somos" className="section">
           <p>En JAD Corp, somos más que una start-up tecnológica colombiana; somos una fuerza impulsora detrás de la transformación digital en todo el mundo. Nuestra pasión por la innovación y nuestra dedicación a crear soluciones tecnológicas de vanguardia nos posicionan como socios confiables para empresas en busca de un cambio disruptivo y efectivo. Nos comprometemos a ofrecer a nuestros clientes globales las herramientas y la experiencia necesarias para capitalizar al máximo el potencial de sus datos, permitiéndoles alcanzar nuevos niveles de eficiencia, competitividad y éxito en sus respectivas industrias. Con un enfoque en la excelencia, la transparencia y el servicio al cliente, estamos listos para liderar el camino hacia un futuro digital sin fronteras, donde la innovación y la tecnología abren puertas hacia infinitas posibilidades. Confíe en JAD Corp para impulsar su transformación digital y llevar su empresa al siguiente nivel, donde juntos, podemos lograr grandes cosas.</p>
