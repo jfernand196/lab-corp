@@ -265,7 +265,7 @@ body{
 }
 
 .home-wrapper{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('background.jpg') no-repeat center top;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('fondoPantalla3.jpg') no-repeat center top;
     background-size: cover;
     color: white;
 }
