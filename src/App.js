@@ -115,6 +115,15 @@ const App = () => {
         </div>
         
     </section>
+
+    <section id="contacto">
+        <h2>CONTACTO</h2>
+        <form>
+            <div><input type="text" placeholder="Tu email"/></div>
+            <div><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
+            <button>ENVIAR</button>
+        </form>
+    </section>
       <main>
         <section id="quienes-somos" className="section">
           <p>En JAD Corp, somos más que una start-up tecnológica colombiana; somos una fuerza impulsora detrás de la transformación digital en todo el mundo. Nuestra pasión por la innovación y nuestra dedicación a crear soluciones tecnológicas de vanguardia nos posicionan como socios confiables para empresas en busca de un cambio disruptivo y efectivo. Nos comprometemos a ofrecer a nuestros clientes globales las herramientas y la experiencia necesarias para capitalizar al máximo el potencial de sus datos, permitiéndoles alcanzar nuevos niveles de eficiencia, competitividad y éxito en sus respectivas industrias. Con un enfoque en la excelencia, la transparencia y el servicio al cliente, estamos listos para liderar el camino hacia un futuro digital sin fronteras, donde la innovación y la tecnología abren puertas hacia infinitas posibilidades. Confíe en JAD Corp para impulsar su transformación digital y llevar su empresa al siguiente nivel, donde juntos, podemos lograr grandes cosas.</p>
