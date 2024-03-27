@@ -90,9 +90,8 @@ const App = () => {
         </div>
     </section>
     <section id="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qdIuXCfUKM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5nq2APYURE" title="Godzilla y Kong: El nuevo imperio | Tráiler oficial 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
-
     <section id="portafolio">
         <div className="container">
             <h2>PORTAFOLIO</h2>
