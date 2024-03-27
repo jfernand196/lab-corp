@@ -66,13 +66,54 @@ const App = () => {
         <div className="box">
             <img src="web-development.png" alt="Web Developend"/>
             <h3>Web Development</h3>
-            <p>Somos expertos en Web Development. Usamos HTML5, CSS3, Git, Bootstrap, Ruby on Rails, y JavaScript.</p>
+            <p>Somos expertos en Web Development. Usamos HTML5, CSS3, Git, Bootstrap, NodeJs, React, Mongodb.</p>
         </div>
         <div className="box">
             <img src="ux-ui.png" alt="UX and UI"/>
             <h3>Mobile Development</h3>
             <p>Somos expertos en Mobile Development. Creemos que el futuro está en responsive design y no nativo.</p>
         </div>
+    </section>
+    <section id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qdIuXCfUKM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="portafolio">
+        <div className="container">
+            <h2>PORTAFOLIO</h2>
+            <div className="box">
+                <img src="roundicons.png" alt="Iconos redondeados"/>
+                <h3>Mobile Development</h3>
+                <p>Creamos los mejores íconos redondeados del mercado.</p>
+            </div>
+            <div className="box">
+                <img src="startup-framework.png" alt="Creative Digital"/>
+                <h3>Creative Digital</h3>
+                <p>Excelente trabajo que nos quedó para Creative Digital Inc.</p>
+            </div>
+            <div className="box">
+                <img src="treehouse.png" alt="We can do that"/>
+                <h3>We can do that</h3>
+                <p>Increíble elaboración del concepto que hicimos para Yup, we can do that.</p>
+            </div>
+            <div className="box">
+                <img src="escape.png" alt="Escape"/>
+                <h3>Escape</h3>
+                <p>Este es el mismo que el anterior pero esperemos que nadie lo note.</p>
+            </div>
+            <div className="box">
+                <img src="dreams.png" alt="Dreams"/>
+                <h3>Dreams</h3>
+                <p>Una aplicación que nos quedó muy bacana. Hecha con Ruby on Rails.</p>
+            </div>
+            <div className="box">
+                <img src="startup-framework.png" alt="Startup Framework" />
+                <h3>Startup Framework</h3>
+                <p>Este es increíble. Es un desarrollo que hicimos ya hace un tiempo.</p>
+            </div>
+    
+        </div>
+        
     </section>
       <main>
         <section id="quienes-somos" className="section">
@@ -86,7 +127,7 @@ const App = () => {
           <h2>Nuestra Experiencia</h2>
           <p>JAD Corp ofrece soluciones tecnológicas innovadoras y personalizadas para empresas de diversos sectores. Con más de 1 año de experiencia, nuestro equipo de expertos te acompaña en el diseño y desarrollo de software que impulse tu negocio al éxito.</p>
         </section>
-        <section id="nuestros-proyectos" className="section">
+{  /*      <section id="nuestros-proyectos" className="section">
           <h2>Nuestros Proyectos</h2>
           <ul className="proyectos-lista">
             <li>
@@ -102,7 +143,7 @@ const App = () => {
               <p>Descripción del Proyecto 3</p>
             </li>
           </ul>
-        </section>
+</section>*/}
         <section id="servicios" className="section">
           <h2>Servicios</h2>
           <p>¿Necesitas un sitio web que represente tu marca y te ayude a atraer nuevos clientes? ¿Quieres una aplicación web que automatice tus procesos y te haga más eficiente?  En JADCORP, podemos ayudarte a crear soluciones web personalizadas que se adapten a tus necesidades específicas.</p>
