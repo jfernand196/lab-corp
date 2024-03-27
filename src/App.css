@@ -342,6 +342,12 @@ header nav a.active{
     background-color: #fed136;
 }
 
+li:hover {
+  color: #fed136;
+  background-color: #fed136;
+  cursor: pointer; /* Indicar que el elemento es interactivo */
+}
+
 #servicios .box{
     display: inline-block;
     text-align: center;
