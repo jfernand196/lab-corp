@@ -113,7 +113,7 @@ const App = () => {
             <div className="box">
                 <img src="escape.png" alt="Escape"/>
                 <h3>Escape</h3>
-                <p>Este es el mismo que el anterior pero esperemos que nadie lo note.</p>
+                <p>Un gran desarrollo para diversos sectores.</p>
             </div>
             <div className="box">
                 <img src="dreams.png" alt="Dreams"/>
@@ -141,9 +141,9 @@ const App = () => {
       <footer>
         <div className="redes-sociales">
           <a href="#">Facebook</a>
-          {' '}
+          {'    '}
           <a href="#">Instagram</a>
-          {' '}
+          {'    '}
           <a href="#">Linkedin</a>
         </div>
         <p>2024 JAD Corp, Todos Los Derechos Reservados.</p>
