@@ -113,7 +113,7 @@ const App = () => {
             <div className="box">
                 <img src="escape.png" alt="Escape"/>
                 <h3>Escape</h3>
-                <p>Un gran desarrollo para diversos sectores.</p>
+                <p>Un gran desarrollo para diversos sectores. Hecha con NextJs</p>
             </div>
             <div className="box">
                 <img src="dreams.png" alt="Dreams"/>
