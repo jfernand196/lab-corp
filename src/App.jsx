@@ -26,6 +26,9 @@ const App = () => {
               <a href="#nuestro-logo">Nuestro logo</a>
             </li>
             <li>
+              <a href="#nuestro-logo">aqui</a>
+            </li>
+            <li>
               <a href="#nuestra-experiencia">Nuestra Experiencia</a>
             </li>
             <li>
