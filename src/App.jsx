@@ -59,32 +59,32 @@ const App = () => {
       <section id="servicios" className="container">
         <h2>SERVICIOS</h2>
         <div className="box">
-            <img src="./web-design.png" alt="Web Dising"/>
+            <img src="./disenoWeb.jpeg" width="300" height="186" alt="Web Dising"/>
             <h3>Web Desing</h3>
             <p>Creamos sitios web modernos, atractivos y fáciles de usar que se adaptan a cualquier dispositivo.</p>
         </div>
         <div className="box">
-            <img src="web-development.png" alt="Web Developend"/>
+            <img src="WebDevelopment.jpg" width="300" height="186" alt="Web Developend"/>
             <h3>Web Development</h3>
             <p>Desarrollamos aplicaciones web robustas y escalables que te ayudan a optimizar tu negocio.</p>
         </div>
         <div className="box">
-            <img src="ux-ui.png" alt="UX and UI"/>
+            <img src="./MobileDevelopment.jpg" width="300" height="186" alt="UX and UI"/>
             <h3>Mobile Development</h3>
             <p>Somos expertos en Mobile Development. Creemos que el futuro está en responsive design y no nativo.</p>
         </div>
         <div className="box">
-            <img src="web-development.png" alt="Web Developend"/>
+            <img src="MantenimientoWeb.jpeg" width="300" height="186" alt="Web Developend"/>
             <h3>Mantenimiento web</h3>
             <p> Nos encargamos de mantener tu sitio web actualizado y seguro, para que puedas despreocuparte.</p>
         </div>
         <div className="box">
-            <img src="ux-ui.png" alt="UX and UI"/>
+            <img src="Cienciadatos.jpeg" width="300" height="186" alt="UX and UI"/>
             <h3>Ciencia, análisis e ingeniería de datos</h3>
             <p> Convierte tus datos en información procesable y toma decisiones estratégicas que impulsen tu negocio al siguiente nivel.</p>
         </div>
         <div className="box">
-            <img src="./web-design.png" alt="Web Dising"/>
+            <img src="./AutProcesos.jpeg" width="300" height="186" alt="Web Dising"/>
             <h3>Automatización de procesos</h3>
             <p>Optimiza tus operaciones, reduce costos y libera el potencial de tu equipo con soluciones de automatización personalizadas.</p>
         </div>
