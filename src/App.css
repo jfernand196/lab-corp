@@ -355,6 +355,10 @@ li:hover {
     padding: 10px;
 }
 
+#servicios .box img {
+  border-radius: 6%;
+}
+
 #video{
     background-color: black;
     text-align: center;
