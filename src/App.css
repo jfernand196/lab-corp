@@ -359,6 +359,10 @@ li:hover {
   border-radius: 6%;
 }
 
+#portafolio .box img {
+  border-radius: 6%;
+}
+
 #video{
     background-color: black;
     text-align: center;
