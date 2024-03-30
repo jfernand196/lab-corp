@@ -1,6 +1,8 @@
 // App.js
 import React, { useState } from "react";
 import "./App.css";
+import "react-image-gallery/styles/css/image-gallery.css"
+import ImageGallery from "react-image-gallery"
 
 
 const App = () => {
@@ -9,6 +11,21 @@ const App = () => {
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen);
   };
+
+  const images = [
+    {
+      original: "https://picsum.photos/id/1018/1000/600/",
+      thumbnail: "https://picsum.photos/id/1018/250/150/",
+    },
+    {
+      original: "https://picsum.photos/id/1015/1000/600/",
+      thumbnail: "https://picsum.photos/id/1015/250/150/",
+    },
+    {
+      original: "https://picsum.photos/id/1019/1000/600/",
+      thumbnail: "https://picsum.photos/id/1019/250/150/",
+    },
+  ];
 
   return (
     <div className="App">
@@ -89,6 +106,18 @@ const App = () => {
             <p>Optimiza tus operaciones, reduce costos y libera el potencial de tu equipo con soluciones de automatización personalizadas.</p>
         </div>
     </section>
+    <ImageGallery 
+    items={images}
+    showFullscreenButton={false}
+    showThumbnails={true}
+    showNav= {true}
+    showBullets={true}
+    showPlayButton={false} 
+    autoPlay={true}
+    slideInterval={3000}
+    slideDuration={1000}
+    />
+
     <section id="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5nq2APYURE" title="Godzilla y Kong: El nuevo imperio | Tráiler oficial 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
