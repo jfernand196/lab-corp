@@ -23,8 +23,8 @@ const App = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_rwp4bhf', 'template_b0veyjl', form.current, {
-        publicKey: 'TROG1V63hZrBwMSlL',
+      .sendForm('service_vkuh4hh', 'template_yh45u15', form.current, {
+        publicKey: 'DK0mfVqpuP1ee4p9Y',
       })
       .then(
         () => {
