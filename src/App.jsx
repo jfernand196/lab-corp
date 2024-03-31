@@ -4,6 +4,8 @@ import "./App.css";
 import "react-image-gallery/styles/css/image-gallery.css"
 import ImageGallery from "react-image-gallery"
 import emailjs from '@emailjs/browser';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+
 
 
 const App = () => {
@@ -13,6 +15,10 @@ const App = () => {
     email: '',
     message: '',
   });
+
+  const handleClick = () => {
+    window.open('https://api.whatsapp.com/send?phone=3226663569&text=Hola,%20me%20interesa%20tu%20producto');
+  };
   const form = useRef(null);
 
   const handleChange = (event) => {
@@ -123,6 +129,13 @@ const App = () => {
     />
 
     </section>
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<a href="https://api.whatsapp.com/send?phone=+573011916711&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 
     <section id="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5nq2APYURE" title="Godzilla y Kong: El nuevo imperio | Tráiler oficial 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
