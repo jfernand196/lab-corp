@@ -87,7 +87,7 @@ const App = () => {
     showBullets={true}
     showPlayButton={false} 
     autoPlay={true}
-    slideInterval={3000}
+    slideInterval={6000}
     slideDuration={1000}
     />
 
