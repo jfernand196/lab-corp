@@ -45,9 +45,6 @@ const App = () => {
             <li>
               <a href="#quienes-somos">Quiénes Somos</a>
             </li>
-{/*            <li>
-              <a href="#nuestro-logo">Nuestro logo</a>
-  </li>*/}
             <li>
               <a href="#nuestra-experiencia">Nuestra Experiencia</a>
             </li>
