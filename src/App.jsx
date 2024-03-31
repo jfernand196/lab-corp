@@ -105,7 +105,7 @@ const App = () => {
       <section id="home" className="container">
             <h1>CREAMOS LAS <strong>APLICACIONES</strong> DEL FUTURO</h1>
             <div className="divider"></div>
-            <p>JAD Corp ofrece soluciones tecnológicas innovadoras y personalizadas para empresas de diversos sectores. Con varios años de experiencia, nuestro equipo de expertos te acompaña en el diseño y desarrollo de software que impulse tu negocio al éxito.</p>
+            <p>Jad Corp ofrece soluciones tecnológicas innovadoras y personalizadas para empresas de diversos sectores. Con varios años de experiencia, nuestro equipo de expertos te acompaña en el diseño y desarrollo de software que impulse tu negocio al éxito.</p>
 {/*            <div className="social">
                 <a href=""><i className="fab fa-facebook-f"></i></a>
                 <a href=""><i className="fab fa-twitter"></i></a>
