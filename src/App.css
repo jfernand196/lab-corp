@@ -272,10 +272,10 @@ body{
 }
 
 header{
-    position: fixed;
     padding: 10px 0;
     width: 100%;
-    background-color: rgba(48,48,48, 0.5);
+    background-color: transparent;
+    position: absolute;
 }
 
 header img{
