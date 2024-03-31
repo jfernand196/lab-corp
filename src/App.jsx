@@ -4,7 +4,7 @@ import "./App.css";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
 import emailjs from "@emailjs/browser";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -107,11 +107,6 @@ const App = () => {
             nuestro equipo de expertos te acompaña en el diseño y desarrollo de
             software que impulse tu negocio al éxito.
           </p>
-          {/*            <div className="social">
-                <a href=""><i className="fab fa-facebook-f"></i></a>
-                <a href=""><i className="fab fa-twitter"></i></a>
-                <a href=""><i className="fab fa-github"></i></a>
-  </div>*/}
         </section>
       </div>
       <section id="servicios" className="container">
@@ -234,11 +229,17 @@ const App = () => {
       </section>
       <footer>
         <div className="redes-sociales">
-          <a href="#">Facebook</a>
+          <a href="https://www.facebook.com/profile.php?id=61557840956051">
+            Facebook
+          </a>
           {"    "}
-          <a href="#">Instagram</a>
+          <a href="https://www.instagram.com/jadcorptech/">Instagram</a>
           {"    "}
-          <a href="#">Linkedin</a>
+          <a href="https://www.linkedin.com/company/103108870/admin/feed/posts/?feedType=following">
+            Linkedin
+          </a>
+          {"    "}
+          <a href="https://www.tiktok.com/@jad.corp.tech?lang=en">TikTok</a>
         </div>
         <p>2024 JAD Corp, Todos Los Derechos Reservados.</p>
       </footer>
