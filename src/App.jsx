@@ -14,16 +14,22 @@ const App = () => {
 
   const images = [
     {
-      original: "https://picsum.photos/id/1018/1000/600/",
-      thumbnail: "https://picsum.photos/id/1018/250/150/",
+      original: "./servicio11.JPG",
     },
     {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
+      original: "./servicio22.JPG",
     },
     {
-      original: "https://picsum.photos/id/1019/1000/600/",
-      thumbnail: "https://picsum.photos/id/1019/250/150/",
+      original: "./servicio33.JPG",
+    },
+    {
+      original: "./servicio44.JPG",
+    },
+    {
+      original: "./servicio55.JPG",
+    },
+    {
+      original: "./servicio66.JPG",
     },
   ];
 
@@ -32,7 +38,7 @@ const App = () => {
       <div className="home-wrapper">
       <header>
         <div className="logo">
-          <img src="logo.jpg" alt="Logo" />
+          <img src="logo2.jpg" alt="Logo" />
         </div>
         <nav className={menuOpen ? "menu-open" : ""}>
           <ul>
@@ -75,48 +81,20 @@ const App = () => {
       </div>
       <section id="servicios" className="container">
         <h2>SERVICIOS</h2>
-        <div className="box">
-            <img src="./disenoWeb.jpeg" width="300" height="186" alt="Web Dising"/>
-            <h3>Web Desing</h3>
-            <p>Creamos sitios web modernos, atractivos y fáciles de usar que se adaptan a cualquier dispositivo.</p>
-        </div>
-        <div className="box">
-            <img src="WebDevelopment.jpg" width="300" height="186" alt="Web Developend"/>
-            <h3>Web Development</h3>
-            <p>Desarrollamos aplicaciones web robustas y escalables que te ayudan a optimizar tu negocio.</p>
-        </div>
-        <div className="box">
-            <img src="./MobileDevelopment.jpg" width="300" height="186" alt="UX and UI"/>
-            <h3>Mobile Development</h3>
-            <p>Somos expertos en Mobile Development. Creemos que el futuro está en responsive design y no nativo.</p>
-        </div>
-        <div className="box">
-            <img src="MantenimientoWeb.jpeg" width="300" height="186" alt="Web Developend"/>
-            <h3>Mantenimiento web</h3>
-            <p> Nos encargamos de mantener tu sitio web actualizado y seguro, para que puedas despreocuparte.</p>
-        </div>
-        <div className="box">
-            <img src="Cienciadatos.jpeg" width="300" height="186" alt="UX and UI"/>
-            <h3>Ciencia, análisis e ingeniería de datos</h3>
-            <p> Convierte tus datos en información procesable y toma decisiones estratégicas que impulsen tu negocio al siguiente nivel.</p>
-        </div>
-        <div className="box">
-            <img src="./AutProcesos.jpeg" width="300" height="186" alt="Web Dising"/>
-            <h3>Automatización de procesos</h3>
-            <p>Optimiza tus operaciones, reduce costos y libera el potencial de tu equipo con soluciones de automatización personalizadas.</p>
-        </div>
-    </section>
+
     <ImageGallery 
     items={images}
     showFullscreenButton={false}
     showThumbnails={true}
-    showNav= {true}
+    showNav= {false}
     showBullets={true}
     showPlayButton={false} 
     autoPlay={true}
     slideInterval={3000}
     slideDuration={1000}
     />
+
+    </section>
 
     <section id="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5nq2APYURE" title="Godzilla y Kong: El nuevo imperio | Tráiler oficial 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
