@@ -1,12 +1,43 @@
 // App.js
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./App.css";
 import "react-image-gallery/styles/css/image-gallery.css"
 import ImageGallery from "react-image-gallery"
+import emailjs from '@emailjs/browser';
 
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  const form = useRef(null);
+
+  const handleChange = (event) => {
+    setFormData({ ...formData, [event.target.name]: event.target.value });
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_rwp4bhf', 'template_b0veyjl', form.current, {
+        publicKey: 'TROG1V63hZrBwMSlL',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          // Clear form data after successful sending
+          setFormData({ name: '', email: '', message: '' });
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
 
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen);
@@ -134,13 +165,37 @@ const App = () => {
         
     </section>
 
+
     <section id="contacto">
         <h2>CONTACTO</h2>
-        <form>
-            <div><input type="text" placeholder="Tu email"/></div>
-            <div><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
-            <button>ENVIAR</button>
-        </form>
+        <form ref={form} onSubmit={sendEmail}>
+      <div className="name">
+        <input 
+        type="text"
+        value={formData.name}
+        onChange={handleChange}
+        name="name"
+        placeholder="Tu nombre"
+        required
+ /></div>
+      <div>
+        <input 
+        type="email"
+        value={formData.email}
+        onChange={handleChange}
+        name="email"
+        placeholder="Tu email"
+        required/></div>
+      <div>
+        <textarea 
+         value={formData.message}
+         onChange={handleChange}
+         name="message"
+         placeholder="Tu mensaje"
+         rows="10"
+         required/></div>
+      <button type="submit" >ENVIAR</button>
+      </form>
     </section>
       <footer>
         <div className="redes-sociales">
