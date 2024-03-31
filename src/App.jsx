@@ -16,9 +16,6 @@ const App = () => {
     message: '',
   });
 
-  const handleClick = () => {
-    window.open('https://api.whatsapp.com/send?phone=3226663569&text=Hola,%20me%20interesa%20tu%20producto');
-  };
   const form = useRef(null);
 
   const handleChange = (event) => {
