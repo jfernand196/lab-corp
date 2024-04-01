@@ -74,19 +74,16 @@ const App = () => {
           <nav className={menuOpen ? "menu-open" : ""}>
             <ul>
               <li>
-                <a href="#quienes-somos">Quiénes Somos</a>
+                <a href="#divider">Quiénes Somos</a>
               </li>
               <li>
-                <a href="#nuestra-experiencia">Nuestra Experiencia</a>
+                <a href="#portafolio">Nuestros Proyectos</a>
               </li>
               <li>
-                <a href="#nuestros-proyectos">Nuestros Proyectos</a>
+                <a href="#servicios">Servicios</a>
               </li>
               <li>
-                <a href="#servicios:">Servicios</a>
-              </li>
-              <li>
-                <a href="#contactenos">Contáctenos</a>
+                <a href="#contacto">Contáctenos</a>
               </li>
             </ul>
           </nav>
@@ -100,7 +97,7 @@ const App = () => {
           <h1>
             CREAMOS LAS <strong>APLICACIONES</strong> DEL FUTURO
           </h1>
-          <div className="divider"></div>
+          <div id="divider" className="divider"></div>
           <p>
             Jad Corp ofrece soluciones tecnológicas innovadoras y personalizadas
             para empresas de diversos sectores. Con varios años de experiencia,
