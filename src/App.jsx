@@ -1,18 +1,54 @@
 // App.js
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useLayoutEffect } from "react";
 import "./App.css";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
+import ScrollReveal from "scrollreveal";
+import { useWindowScroll } from "react-use";
 
 const App = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
+
+  const [state, setState] = useState(false);
+  const [stateHeader, setStateHeader] = useState(false);
+
+  const { y } = useWindowScroll();
+
+  useLayoutEffect(() => {
+    if (y >= 50) {
+      setStateHeader(true);
+    } else {
+      setStateHeader(false);
+    }
+  }, [y]);
+
+  const sr = ScrollReveal({
+    origin: "top",
+    distance: "60px",
+    duration: 2500,
+    delay: 400,
+    reset: true,
+  });
+
+  useEffect(() => {
+    sr.reveal(`.logo, .menu-open`);
+    sr.reveal(`.container`, { origin: "left", delay: 300 });
+    sr.reveal(`.home__tree-2`, { origin: "right", delay: 300 });
+    sr.reveal(`.video`, { delay: 200 });
+    sr.reveal(`.contacto`, { interval: 100 });
+    // sr.reveal(`.about__img, .about__data, .footer__tree-2`, {
+    //   origin: "left",
+    // });
+    // sr.reveal(`.party__images, .party__data, .footer__tree-1`, {
+    //   origin: "right",
+    // });
+  }, []);
 
   const form = useRef(null);
 
@@ -39,10 +75,6 @@ const App = () => {
       );
   };
 
-  const handleMenuToggle = () => {
-    setMenuOpen(!menuOpen);
-  };
-
   const images = [
     {
       original: "./servicio11.JPG",
@@ -67,11 +99,11 @@ const App = () => {
   return (
     <div className="App">
       <div className="home-wrapper">
-        <header>
+        <header className={stateHeader ? "header-bg-header" : "header"}>
           <div className="logo">
             <img src="logo2.jpg" alt="Logo" />
           </div>
-          <nav className={menuOpen ? "menu-open" : ""}>
+          <nav className="menu-open">
             <ul>
               <li>
                 <a href="#divider">Quiénes Somos</a>
@@ -87,11 +119,6 @@ const App = () => {
               </li>
             </ul>
           </nav>
-          <button className="menu-toggle" onClick={handleMenuToggle}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
         </header>
         <section id="home" className="container">
           <h1>
@@ -135,7 +162,7 @@ const App = () => {
         <i class="fa fa-whatsapp my-float"></i>
       </a>
 
-      <section id="video">
+      <section id="video" className="video">
         <iframe
           width="560"
           height="315"
@@ -188,7 +215,7 @@ const App = () => {
         </div>
       </section>
 
-      <section id="contacto">
+      <section id="contacto" className="contacto">
         <h2>CONTACTO</h2>
         <form ref={form} onSubmit={sendEmail}>
           <div className="name">
