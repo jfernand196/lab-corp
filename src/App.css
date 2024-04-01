@@ -360,6 +360,10 @@ section h2 {
     padding: 10px 0;
   }
 
+  .video iframe {
+    width: 250px;
+    height: 100px;
+  }
   #portafolio {
     background-color: whitesmoke;
   }
