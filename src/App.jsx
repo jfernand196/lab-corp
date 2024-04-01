@@ -32,15 +32,15 @@ const App = () => {
     origin: "top",
     distance: "60px",
     duration: 2500,
-    delay: 400,
+    delay: 100,
     reset: true,
   });
 
   useEffect(() => {
     sr.reveal(`.logo, .menu-open`);
-    sr.reveal(`.container`, { origin: "left", delay: 300 });
-    sr.reveal(`.home__tree-2`, { origin: "right", delay: 300 });
-    sr.reveal(`.video`, { delay: 200 });
+    sr.reveal(`.container`, { origin: "left", delay: 100 });
+    sr.reveal(`.home__tree-2`, { origin: "right", delay: 100 });
+    sr.reveal(`.video`, { delay: 100 });
     sr.reveal(`.contacto`, { interval: 100 });
     // sr.reveal(`.about__img, .about__data, .footer__tree-2`, {
     //   origin: "left",
