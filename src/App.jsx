@@ -7,6 +7,7 @@ import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
 import ScrollReveal from "scrollreveal";
 import { useWindowScroll } from "react-use";
+import { SocialIcon } from "react-social-icons";
 
 const App = () => {
   const [formData, setFormData] = useState({
@@ -257,19 +258,28 @@ const App = () => {
         </div>
 
         <h2>Conosca más de nosotros</h2>
-        <div className="redes-sociales">
-          <a href="https://www.facebook.com/profile.php?id=61557840956051">
-            Facebook
-          </a>
-          {"    "}
-          <a href="https://www.instagram.com/jadcorptech/">Instagram</a>
-          {"    "}
-          <a href="https://www.linkedin.com/company/103108870/admin/feed/posts/?feedType=following">
-            Linkedin
-          </a>
-          {"    "}
-          <a href="https://www.tiktok.com/@jad.corp.tech?lang=en">TikTok</a>
-        </div>
+
+        <SocialIcon
+          className="social"
+          url="https://www.facebook.com/profile.php?id=61557840956051"
+          network="facebook"
+        />
+        <SocialIcon
+          className="social"
+          url="https://www.instagram.com/jadcorptech/"
+          network="instagram"
+        />
+        <SocialIcon
+          className="social"
+          url="https://www.linkedin.com/company/103108870/admin/feed/posts/?feedType=following"
+          network="linkedin"
+        />
+        <SocialIcon
+          className="social"
+          url="https://www.tiktok.com/@jad.corp.tech?lang=en"
+          network="tiktok"
+        />
+
         <p>2024 JAD Corp, Todos Los Derechos Reservados.</p>
       </footer>
     </div>
