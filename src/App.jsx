@@ -38,11 +38,9 @@ const App = () => {
   });
 
   useEffect(() => {
-    sr.reveal(`.logo, .menu-open`);
+    sr.reveal(`.logo, .menu-open, .video, .contacto`);
     sr.reveal(`.container`, { origin: "left", delay: 100 });
     sr.reveal(`.home__tree-2`, { origin: "right", delay: 100 });
-    sr.reveal(`.video`, { delay: 100 });
-    sr.reveal(`.contacto`, { interval: 100 });
     // sr.reveal(`.about__img, .about__data, .footer__tree-2`, {
     //   origin: "left",
     // });
