@@ -278,7 +278,7 @@ const App = () => {
           network="tiktok"
         />
 
-        <p>2024 JAD Corp, Todos Los Derechos Reservados.</p>
+        <p>2024 Jad Corp, Todos Los Derechos Reservados.</p>
       </footer>
     </div>
   );
