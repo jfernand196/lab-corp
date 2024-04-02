@@ -252,6 +252,11 @@ const App = () => {
         </form>
       </section>
       <footer>
+        <div className="logo-footer">
+          <img src="logo2.jpg" alt="Logo" />
+        </div>
+
+        <h2>Conosca más de nosotros</h2>
         <div className="redes-sociales">
           <a href="https://www.facebook.com/profile.php?id=61557840956051">
             Facebook
