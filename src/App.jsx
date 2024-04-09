@@ -105,7 +105,7 @@ const App = () => {
           <nav className="menu-open">
             <ul>
               <li>
-                <a href="#divider">Quiénes Somos</a>
+                <a href="#divider">Quiénes Somoss</a>
               </li>
               <li>
                 <a href="#portafolio">Nuestros Proyectos</a>
