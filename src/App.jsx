@@ -76,7 +76,7 @@ const App = () => {
 
   const images = [
     {
-      original: "./servicio11.JPG",
+      original: "./DW1.jpg",
     },
     {
       original: "./servicio22.JPG",
