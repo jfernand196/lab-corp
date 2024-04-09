@@ -85,13 +85,16 @@ const App = () => {
       original: "./DW3.jpg",
     },
     {
-      original: "./servicio44.JPG",
+      original: "./DW4.jpg",
     },
     {
-      original: "./servicio55.JPG",
+      original: "./DW5.jpg",
     },
     {
-      original: "./servicio66.JPG",
+      original: "./DW6.jpg",
+    },
+    {
+      original: "./DW7.jpg",
     },
   ];
 
