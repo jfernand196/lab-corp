@@ -76,22 +76,22 @@ const App = () => {
 
   const images = [
     {
-      original: "./DW1.JPG",
+      original: "DW1.JPG",
     },
     {
-      original: "./DW2.JPG",
+      original: "DW2.JPG",
     },
     {
-      original: "./DW3.JPG",
+      original: "DW3.JPG",
     },
     {
-      original: "./DW4.JPG",
+      original: "DW4.JPG",
     },
     {
-      original: "./DW5.JPG",
+      original: "DW5.JPG",
     },
     {
-      original: "./DW6.JPG",
+      original: "DW6.JPG",
     },
   ];
 
