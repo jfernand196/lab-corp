@@ -79,10 +79,10 @@ const App = () => {
       original: "./DW1.jpg",
     },
     {
-      original: "./servicio22.JPG",
+      original: "./DW2.jpg",
     },
     {
-      original: "./servicio33.JPG",
+      original: "./DW3.jpg",
     },
     {
       original: "./servicio44.JPG",
