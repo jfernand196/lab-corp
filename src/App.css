@@ -28,6 +28,14 @@ body {
   color: white;
 }
 
+.blog {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("fondoBlog.jpg") no-repeat center top;
+  background-size: cover;
+  color: white;
+}
+
 header {
   padding: 10px 0;
   width: 100%;

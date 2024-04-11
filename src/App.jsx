@@ -272,7 +272,7 @@ const App = () => {
         </form>
       </section>
 
-      <section>
+      <section className="blog">
         <div>
           <h2>BLOG</h2>
           {posts.map((post) => (
