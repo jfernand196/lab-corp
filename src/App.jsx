@@ -16,14 +16,32 @@ const App = () => {
     message: "",
   });
 
-  const [state, setState] = useState(false);
   const [stateHeader, setStateHeader] = useState(false);
-
+  const [posts, setPosts] = useState([]);
+  const [vibrar, setVibrar] = useState(false);
   const { y } = useWindowScroll();
+
+  const dataPost = [
+    {
+      id: 1,
+      title: "Título del primer post",
+      excerpt:
+        "Este es un extracto del primer post. Puedes agregar una breve descripción del contenido del post aquí.",
+      url: "https://www.tudominio.com/ruta/al/primer-post",
+    },
+    {
+      id: 2,
+      title: "Título del primer post",
+      excerpt:
+        "Este es un extracto del primer post. Puedes agregar una breve descripción del contenido del post aquí.",
+      url: "https://www.tudominio.com/ruta/al/primer-post",
+    },
+  ];
 
   useLayoutEffect(() => {
     if (y >= 50) {
       setStateHeader(true);
+      setVibrar(false);
     } else {
       setStateHeader(false);
     }
@@ -38,15 +56,18 @@ const App = () => {
   });
 
   useEffect(() => {
+    const intervalo = setInterval(() => setVibrar(true), 8000); // Se ejecuta cada segundo
+
+    return () => clearInterval(intervalo);
+  }, [y]);
+
+  console.log("vibrar", vibrar);
+
+  useEffect(() => {
+    setPosts(dataPost);
     sr.reveal(`.logo, .menu-open, .video`);
     sr.reveal(`.container`, { origin: "left", delay: 100 });
     sr.reveal(`.home__tree-2`, { origin: "right", delay: 100 });
-    // sr.reveal(`.about__img, .about__data, .footer__tree-2`, {
-    //   origin: "left",
-    // });
-    // sr.reveal(`.party__images, .party__data, .footer__tree-1`, {
-    //   origin: "right",
-    // });
   }, []);
 
   const form = useRef(null);
@@ -157,11 +178,11 @@ const App = () => {
       />
       <a
         href="https://api.whatsapp.com/send?phone=+573011916711&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20."
-        class="float"
+        className={vibrar ? "boton-vibracion float" : "float"}
         target="_blank"
         rel="noreferrer"
       >
-        <i class="fa fa-whatsapp my-float"></i>
+        <i className="fa fa-whatsapp my-float"></i>
       </a>
 
       <section id="video" className="video">
@@ -170,10 +191,7 @@ const App = () => {
           height="315"
           src="https://www.youtube.com/embed/Y5nq2APYURE"
           title="Godzilla y Kong: El nuevo imperio | Tráiler oficial 2"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
         ></iframe>
       </section>
       <section id="portafolio">
@@ -253,6 +271,22 @@ const App = () => {
           <button type="submit">ENVIAR</button>
         </form>
       </section>
+
+      <section>
+        <div>
+          <h2>BLOG</h2>
+          {posts.map((post) => (
+            <article key={post.id}>
+              <h2>{post.title}</h2>
+              <p style={{ textAlign: "center" }}>{post.excerpt}</p>
+              <div style={{ textAlign: "center" }}>
+                <a href={post.url}>Leer más</a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
       <footer>
         <div className="logo-footer">
           <img src="logo2.jpg" alt="Logo" />
