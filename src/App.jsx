@@ -65,8 +65,8 @@ const App = () => {
 
   useEffect(() => {
     setPosts(dataPost);
-    sr.reveal(`.logo, .menu-open, .video`);
-    sr.reveal(`.container`, { origin: "left", delay: 100 });
+    sr.reveal(`.logo, .menu-open, .video, .container`);
+    //sr.reveal(`{ origin: "left", delay: 100 });
     sr.reveal(`.home__tree-2`, { origin: "right", delay: 100 });
   }, []);
 
@@ -156,6 +156,44 @@ const App = () => {
           </p>
         </section>
       </div>
+
+      <section id="contacto" className="contacto">
+        <h2>CONTACTENOS</h2>
+        <form ref={form} onSubmit={sendEmail}>
+          <div className="name">
+            <input
+              type="text"
+              value={formData.name}
+              onChange={handleChange}
+              name="name"
+              placeholder="Tu nombre"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              value={formData.email}
+              onChange={handleChange}
+              name="email"
+              placeholder="Tu email"
+              required
+            />
+          </div>
+          <div>
+            <textarea
+              value={formData.message}
+              onChange={handleChange}
+              name="message"
+              placeholder="Tu mensaje"
+              rows="10"
+              required
+            />
+          </div>
+          <button type="submit">ENVIAR</button>
+        </form>
+      </section>
+
       <section id="servicios" className="container">
         <h2>SERVICIOS</h2>
         <ImageGallery
@@ -233,43 +271,6 @@ const App = () => {
             </p>
           </div>
         </div>
-      </section>
-
-      <section id="contacto" className="contacto">
-        <h2>CONTACTO</h2>
-        <form ref={form} onSubmit={sendEmail}>
-          <div className="name">
-            <input
-              type="text"
-              value={formData.name}
-              onChange={handleChange}
-              name="name"
-              placeholder="Tu nombre"
-              required
-            />
-          </div>
-          <div>
-            <input
-              type="email"
-              value={formData.email}
-              onChange={handleChange}
-              name="email"
-              placeholder="Tu email"
-              required
-            />
-          </div>
-          <div>
-            <textarea
-              value={formData.message}
-              onChange={handleChange}
-              name="message"
-              placeholder="Tu mensaje"
-              rows="10"
-              required
-            />
-          </div>
-          <button type="submit">ENVIAR</button>
-        </form>
       </section>
 
       <section className="blog">
