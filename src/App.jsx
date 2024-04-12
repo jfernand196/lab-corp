@@ -158,8 +158,8 @@ const App = () => {
       </div>
       <section id="servicios" className="container">
         <h2>SERVICIOS</h2>
-
         <ImageGallery
+          style={{ width: "800vh", height: "600vh" }}
           items={images}
           showFullscreenButton={false}
           showThumbnails={true}
